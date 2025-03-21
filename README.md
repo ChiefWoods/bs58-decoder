@@ -1,15 +1,33 @@
 # bs58-decoder
 
-To install dependencies:
+Simple base58-to-Uint8Array decoder
+
+## Prerequisites
+
+Update your Bun toolkit
 
 ```bash
-bun install
+bun update
 ```
 
-To run:
+## Setup
+
+1. Clone the repository
 
 ```bash
-bun run index.ts
+git clone https://github.com/ChiefWoods/bs58-decoder.git
 ```
 
-This project was created using `bun init` in bun v1.2.5. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+2. Install all dependencies
+
+```bash
+bun i
+```
+
+## How-To-Use
+
+Run `index.ts` and pass a private key in base58 format along with a `.json` filepath to write to
+
+```bash
+bun index.ts <BS58_PRIVATE_KEY> <JSON_FILEPATH>
+```

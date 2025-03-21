@@ -4,7 +4,8 @@
   "type": "module",
   "private": true,
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "bs58": "^6.0.0"
   },
   "peerDependencies": {
     "typescript": "^5"
