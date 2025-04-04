@@ -26,8 +26,6 @@ bun i
 
 ## How-To-Use
 
-Run `index.ts` and pass a private key in base58 format along with a `.json` filepath to write to
-
 ```bash
-bun index.ts <BS58_PRIVATE_KEY> <JSON_FILEPATH>
+bun uint8arr.ts <BASE58_PRIVATE_KEY> <JSON_OUTPUT_FILEPATH>
 ```
